@@ -26,8 +26,6 @@ public class EmailGeneratorService {
 
     public String generateEmailReply(EmailRequest emailRequest) {
 
-
-
         //Build the prompt
         String prompt=buildPrompt(emailRequest);
 
